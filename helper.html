@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <title>JOBfinder</title>
+</head>
+               <link rel="stylesheet" type="text/css" href="style.css">
+                  
+
+
+     <body>
+
+        
+         <header class="header-fixed">
+
+           <div class="header-limiter">
+
+                       <title>JoB FindeR</title>
+
+                    <h1><a href="index.html">JOB<span>Finder</span></a></h1>   
+  
+                        <nav>
+                          <a id="nav2" href="index.html" class="selected">Home</a>
+                          <a id="nav2" href="finder.html">Finder</a>
+                          <a id="nav2" href="preparation.html">Preparation</a>
+                          <a id="nav2" href="career.html">Career</a>
+                          <a id="nav2" href="contact.html">Contact</a>
+                        </nav>
+
+                    
+              </div>
+
+         </header>
+         
+          <form action="contact.jsp" method="post">
+
+      <div class="wrapper">
+        <div class="contact-form">
+          <div class="title">Get in Touch!!!</div>
+              <div class="input-fields">
+
+                 <div class="items">
+                    <label  class="label">name:</label>
+                    <input name="name" id="inside" type="name" class="input" placeholder="Your Name Required !" required>
+                 </div>
+
+                <div class="items">
+                   <label  class="label">email:</label>   
+                  <input name="email" id="inside" type="email" class="input" placeholder="Your Email_id Required !" required>
+               </div>
+
+              <div class="items">
+                  <label  class="label">subject:</label>
+                  <input name="subject" id="inside" type="text" class="input" placeholder="Plz.. Specify Subject !" required>
+             </div>
+
+             <div class="items">
+                  <label  class="label">message:</label>
+                 <textarea name="message" id="inside" class="text-area" placeholder="Plz... Breif Your Query !" required></textarea>
+             </div>
+
+             <div class="check"> 
+            <a href=""> <input   type="checkbox" name="vehicle1" value="Bike" required> I Follow all Terms and Condition. <br><br></a> 
+            </div>     
+             <button  id="button2">Submit</button>
+
+         </div>       
+        </div>
+      </div>
+    </div>
+
+    </form>
+
+
+  
+</body>
+
+
+</html>
+
+
+<style type="">
+
+  
+    
+    @import url('https://fonts.googleapis.com/css?family=Open+Sans');
+ 
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+ 
+body{
+    background: url('img21.jpg') no-repeat top center;
+    background-size: cover;
+    width: 100%;
+    height: 100px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    background-color: white;
+
+}
+ 
+
+.wrapper{
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    padding-top: 150px;
+    color: black;
+    
+    
+}
+  
+.contact-form{
+    width: 200%;
+    max-width: 450px;
+    height:580px;
+    background: rgba(255,255,0,0.3);
+    /*padding: 40px 10px ;*/
+    border-radius: 10;
+   /* background-image: url('img1.jpg') no-repeat top center;
+   background-color: #FEFA04;
+
+    background-size: cover;
+
+   /* background-color: white;*/
+
+
+    
+} 
+ 
+.title{
+    font-size: 2em;
+    line-height: 1.25em;
+    text-align: center;
+    font-weight: 900;
+    letter-spacing: 2px;
+    color: #ffc107;
+    padding-bottom: 15px;
+    font-family: Times New Roman;
+     text-shadow: -1px 0 blue, 0 1px blue, 1px 0 blue, 0 -1px blue;
+}
+ 
+.input-fields {
+    padding: 0 50px;
+}
+ 
+.input-fields .items{
+    width: 100%;
+    padding-bottom: 15px;
+
+} 
+ 
+.input-fields .items .label{
+    display: block;
+    color: black;
+    text-transform: capitalize;
+    transition: all 0.5s ease;
+    padding-bottom: 5px;
+       font-family: Comic Sans MS;
+       font-size:20px;
+       font-weight: bold;
+       text-shadow: 25px, 25px, 15px, 15px; 
+   }
+
+ 
+.input-fields .items .input,
+.input-fields .items .text-area{
+    background: transparent;
+    border: 0;
+    border: 2px solid #DD401E;
+    width: 100%;
+    padding: 8px 10px;
+    font-size: 1em;
+    color: pink;
+    border-radius: 3px;
+}
+ 
+#button2{
+    margin: 0 30px;
+    background: #F6F607;
+   color:black;
+    font-size: 1.25em;  
+    padding: 10px 0;
+    text-align: center;
+    text-transform: uppercase;
+  /*  border: 3px solid #DD401E;*/
+    cursor: pointer;
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-family:  Times New Roman;
+}
+
+
+#button2:hover
+{
+  /*background-color: #03FACD;*/
+  color: #606A7E;
+}
+
+
+
+ 
+.items #msg{
+    height: 100px;
+}
+ 
+ 
+
+.input-fields .items .input.active .label{
+    font-size: 15px;
+    top: 0;
+}
+ 
+
+
+@media screen and (max-width: 750px){
+    .input-fields {
+        padding: 0;
+    }
+}
+
+        
+.foot h3 {
+  font-family: Bradley Hand;
+  font-size: 25px;
+  color: #040404;
+}
+  
+
+</style>

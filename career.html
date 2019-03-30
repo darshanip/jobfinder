@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<title>JOBfinder</title>
+</head>
+             <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+<meta name="keywords" content="Job Application Form Widget Responsive, Login form web template, Sign up Web Templates, Flat Web Templates, Login signup Responsive web template, Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<!-- //for-mobile-apps -->
+<link href='//fonts.googleapis.com/css?family=Questrial' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="j-forms.css">
+<link href="style.css" rel="stylesheet" type="text/css" media="all" />
+
+     <body>
+
+         <header class="header-fixed">
+
+	          <div class="header-limiter">
+
+             	         <title>JoB FindeR</title>
+
+	                	<h1><a href="#">JOB<span>Finder</span></a></h1>   
+  
+	                     	<nav>
+	                    	  <a id="nav2" href="index.html" class="selected">Home</a>
+                    			<a id="nav2" href="finder.html">Finder</a>
+		                     	<a id="nav2"  href="preparation.html">Preparation</a>
+	                     		<a id="nav2" href="career.html">Career</a>
+		                     	<a id="nav2" href="contact.html">Contact</a>
+		                    </nav>
+
+		            
+      
+            	</div>
+
+         </header>
+
+         	<!----tp----------------------------------------------->
+
+
+         <div class="content">
+		<h1>Be With Us !!!!</h1>
+		<div class="main">
+			<form class="contact-forms">
+				<!-- end /.header-->
+
+					<!-- start name -->
+					<div class="first-line">
+						<div class="span6 main-row">
+							<div class="input">
+								
+								<input type="text" id="first_name" name="first_name" placeholder="First name">
+							</div>
+						</div>
+						<div class="span6 main-row">
+							<div class="input">
+								
+								<input type="text" id="last_name" name="last_name" placeholder="Last name">
+							</div>
+						</div>
+					</div>
+					<!-- end name -->
+
+					<!-- start email phone -->
+					<div class="first-line">
+						<div class="span6 main-row">
+							<div class="input">
+								
+								<input type="email" placeholder="Email" id="email" name="email">
+							</div>
+						</div>
+						<div class="span6 main-row">
+							<div class="input">
+								
+								<input type="text" placeholder="Phone" id="phone" name="phone">
+							</div>
+						</div>
+					</div>
+				
+
+					<!-- start country -->
+					<div class="main-row">
+						<label class="input select">
+							<select name="country">
+								<option value="none" selected="" disabled="">Select country</option>
+								
+								<option value="Philippines">Philippines</option>
+								<option value="Portugal">Portugal</option>
+								<option value="South Africa">South Africa</option>
+								<option value="Spain">Spain</option>
+								<option value="Switzerland">Switzerland</option>
+							</select>
+							<i></i>
+						</label>
+					</div>
+					<!-- end country -->
+
+					<!-- start city post code -->
+					<div class="first-line">
+						<div class="span8 main-row">
+							<div class="input">
+								
+								<input type="text" id="city" placeholder="City" name="city">
+							</div>
+						</div>
+						
+					</div>
+					<!-- end city post code -->
+
+					<!-- start address -->
+					<div class="main-row">
+						<div class="input">
+							
+							<input type="text" id="address" placeholder="Address" name="address">
+						</div>
+					</div>
+					<!-- end address -->
+
+
+					<!-- start position -->
+					<div class="main-row">
+						<label class="input select">
+							<select name="position">
+								<option value="none" selected disabled="">Choose desired position</option>
+								<option value="tech lead">Operator</option>
+								<option value="product manager"> Manager</option>
+								<option value="senior developer"> Developer</option>
+								<option value="QA specialist">Designer</option>
+							</select>
+							<i></i>
+						</label>
+					</div>
+					<!-- end position -->
+
+					<!-- start message -->
+					<div class="main-row">
+						<div class="input">
+							<textarea placeholder="Additional info" spellcheck="false" name="message"></textarea>
+								<span class="tooltip tooltip-right-top">Key Skills</span>
+						</div>
+					</div>
+					<!-- end message -->
+
+					<!-- start files -->
+					
+						<div class=" main-row">
+							<label class="input append-small-btn">
+								<div class="upload-btn">
+									Browse
+									<input type="file" name="file1" onchange="document.getElementById('file1_input').value = this.value;">
+								</div>
+								<input type="text" id="file1_input" readonly="" placeholder="Add your CV">
+								<span class="hint">Only: pdf / doc Size: lessthan 1 Mb</span>
+							</label>
+						</div>
+						
+					
+					<!-- end files -->
+
+			
+				<!-- end /.content -->
+
+				<div class="footer">
+					<button type="submit" class="primary-btn">Send</button>
+					<button type="reset" class="secondary-btn">Reset</button>
+				</div>
+				<!-- end /.footer -->
+
+			</form>
+		
+		<!-- Scripts -->
+		<script src="js/jquery.1.11.1.min.js"></script>
+
+		<!--[if lt IE 10]>
+				<script src="j-folder/js/jquery.placeholder.min.js"></script>
+			<![endif]-->
+
+		<script>
+			$(document).ready(function(){
+
+				// Phone masking
+				$('#phone').mask('(999) 999-9999', {placeholder:'x'});
+
+				// Post code masking
+				$('#post').mask('999-9999', {placeholder:'x'});
+
+			});
+		</script>
+</div>
+
+
+			<!------------------------------>
+
+
+         <footer class="foot" >
+                <h3>© 2019 <span id="j">J</span><span id="f">f</span> Technologies Inc.</h3>
+                <h4>All rights reserved</h4>
+          </footer>
+
+     </body>
+
+
+
+      <style type="">
+                    
+                        body {
+                                 margin: 0;
+                                padding: 0; 
+                               /* background-image: url(img1.jpg);*/
+                                background-size: cover;
+                                background-repeat: no-repeat;
+                                 background-position: center center;
+
+                        }
+
+
+
+
+/*end reset*/
+
+body{
+padding:0;
+margin:0;
+    background:#003f69;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    -moz-background-size: cover;
+font-family: 'Open Sans', sans-serif !important;
+}
+
+
+p{
+	margin:0;
+}
+	 /*-- w3layouts --*/
+ul{
+	margin:0;
+	padding:0;
+}
+label{
+	margin:0;
+}
+/*-- main --*/
+.content{
+	padding:50px 0;
+}
+.content h1{
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 1px;
+font-family: 'Questrial', sans-serif;
+	text-transform:capitalize;
+}
+.main{
+    width: 32%;
+    margin: 45px auto;
+    background:#fff;
+    padding: 30px 30px;
+}
+p.copy_rights {
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+}
+p.copy_rights a{
+	text-decoration:none;
+	color:#fff;
+}
+p.copy_rights a:hover{
+	text-decoration:underline;
+}
+/*-- responsive media queries --*/
+
+@media (max-width: 1440px){
+	
+}
+@media (max-width: 1366px){
+	.main {
+		width: 34%;
+	}	
+}
+@media (max-width: 1280px){
+	.main {
+			 /*-- agileits --*/
+		width: 37%;
+	}	
+}
+@media (max-width: 1080px){
+	.main {
+		width: 41%;
+	}	
+}
+@media (max-width: 1024px){
+	.content h1 {
+		font-size: 35px;
+	}
+	.main {
+		padding: 23px 23px;
+		width: 45%;
+	}	
+}
+@media (max-width: 991px){
+	.contact-forms .main-row {
+		margin-bottom: 17px;
+	}	
+}
+@media (max-width: 800px){
+	.content h1 {
+		font-size: 30px;
+	}
+	.main {
+		width: 51%;
+	}	
+}
+@media (max-width: 768px){
+	.main {
+		width: 66%;
+	}	
+}
+@media (max-width: 736px){
+	
+}
+@media (max-width: 667px){
+	
+}
+@media (max-width: 640px){
+	
+}
+@media (max-width: 600px){
+	.main {
+		width: 74%;
+	}	
+}
+	 /*-- w3layouts --*/
+@media (max-width: 568px){
+	
+}
+@media (max-width: 480px){
+	.contact-forms .span6 {
+		width: 100%;
+	}
+	p.copy_rights {
+		font-size: 13px;
+		line-height:1.8em;
+	}	
+	.contact-forms input[type="text"], .contact-forms input[type="password"], .contact-forms input[type="email"], .contact-forms input[type="search"], .contact-forms input[type="url"], .contact-forms textarea, .contact-forms select {
+		font-size: 13px;
+	}
+	.content h1 {
+		font-size: 27px;
+	}
+	.main {
+		margin: 33px auto;
+	}
+	.contact-forms .primary-btn, .contact-forms .secondary-btn {
+		font-size: 14px;
+		padding: 8px 18px;
+	}
+}
+@media (max-width: 414px){
+	.content h1 {
+		font-size: 25px;
+	}
+	p.copy_rights {
+		line-height: 1.8em;
+		margin: 0 auto;
+		width: 94%;
+	}	
+}
+@media (max-width: 384px){
+	.contact-forms input[type="text"], .contact-forms input[type="password"], .contact-forms input[type="email"], .contact-forms input[type="search"], .contact-forms input[type="url"], .contact-forms textarea, .contact-forms select {
+		padding: 8px 10px;
+	}
+	.contact-forms .upload-btn {
+		padding: 5px 0;
+	}	
+}
+@media (max-width: 375px){
+	.content h1 {
+		font-size: 23px;
+	}
+	.main {
+		width: 80%;
+	}
+	.contact-forms .input textarea {
+		height: 90px;
+	}
+}
+	 /*-- agileits --*/
+@media (max-width: 320px){
+	.content h1 {
+		font-size: 19px;
+	}
+	.content {
+		padding: 40px 0;
+	}	
+	.main {
+		padding: 12px 12px;
+		width: 85%;
+	}
+}
+
+                    </style>
+</html>
